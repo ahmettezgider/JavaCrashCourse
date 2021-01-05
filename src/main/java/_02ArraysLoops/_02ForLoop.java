@@ -78,6 +78,23 @@ public class _02ForLoop {
 
         }
 
+        System.out.println();
+        int[][] arr4dim = {
+                {1,2,3},            //  1   2   3       new int[3]
+                {4,5},              //  4   5           new int[2]
+                {6}                 //  6               new int[1]
+        };
+
+        for (int i = 0; i < 3; i++) {
+            for (int i1 = 0; i1 < 3; i1++) {
+
+                System.out.print(arr4dim[i][i1] + " - ");
+                if (i1 >= arr4dim[i].length-1)
+                    break;
+            }
+            System.out.println();
+
+        }
 
     }
 
