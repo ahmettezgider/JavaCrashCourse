@@ -18,6 +18,7 @@ public class _02Loop2 {
         Arrays.stream(arr).forEach(System.out::print);
         System.out.println();
         list.forEach(System.out::println);
+
         System.out.println("-------------");
         list.stream().map(n->n*n).forEach(System.out::println);
 
