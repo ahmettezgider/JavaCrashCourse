@@ -1,6 +1,6 @@
 package _03Loops;
 
-public class _04Logic {
+public class _05Logic {
 
     public static void main(String[] args) {
 
