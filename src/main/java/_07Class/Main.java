@@ -52,7 +52,7 @@ public class Main {
         System.out.println(pAli.baba.es.name);
         System.out.println(pAli.anne.es.baba.name);
 
-        System.out.println(pAli.baba.baba.baba.baba.baba.baba.baba.anne.anne.es.baba.name);
+        //System.out.println(pAli.baba.baba.baba.baba.baba.baba.baba.anne.anne.es.baba.name);
 
     }
 
