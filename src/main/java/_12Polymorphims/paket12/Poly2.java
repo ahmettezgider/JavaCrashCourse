@@ -33,4 +33,5 @@ public class Poly2 {
     public static void C(LinkedList lst){
 
     }
+
 }
