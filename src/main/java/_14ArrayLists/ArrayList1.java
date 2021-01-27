@@ -35,4 +35,14 @@ public class ArrayList1 {
 
     Generic      ArrayList<String>, ArrayList<Integer>
 
+
+
+        ArrayList                       LinkedList
+
+        1 2 3 4 5 6 7                   1 3 4 5 6 7  2
+
+
+
+
+
  */

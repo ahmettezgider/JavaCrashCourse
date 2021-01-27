@@ -15,6 +15,7 @@ public class ArrayList5 {
 
         System.out.println(list);
 
+
         for (ArrayList<Integer> integers : list) {
             System.out.println(integers);
         }
@@ -29,11 +30,12 @@ public class ArrayList5 {
     }
 
 
-
 }
 
 /*
         [ [1,2,3,4,5], [11,12,13,14,15], [21,22,23,24,25] ]
+
+
 
 
  */
