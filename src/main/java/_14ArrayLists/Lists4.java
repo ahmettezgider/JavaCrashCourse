@@ -19,9 +19,16 @@ public class Lists4 {
         Collections.sort(list1);
         System.out.println(list1);
         System.out.println(list1.indexOf(9));
-        System.out.println(Collections.binarySearch(list1, 9));
         System.out.println(list1.indexOf(10));
+
+        System.out.println(Collections.binarySearch(list1, 9));
         System.out.println(Collections.binarySearch(list1, 10));
+
+        System.out.println(Collections.binarySearch(list1, 1));
+        System.out.println(Collections.binarySearch(list1, 0));
+
+        System.out.println(Collections.binarySearch(list1, 6));
+
 
 
 
