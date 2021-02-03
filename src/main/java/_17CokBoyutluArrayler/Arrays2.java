@@ -1,4 +1,4 @@
-package _172BoyutluArrayler;
+package _17CokBoyutluArrayler;
 
 import java.util.Arrays;
 
