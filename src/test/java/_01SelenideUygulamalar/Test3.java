@@ -1,7 +1,11 @@
 package _01SelenideUygulamalar;
 
 import static com.codeborne.selenide.Condition.*;
+
+import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
@@ -17,6 +21,8 @@ public class Test3 {
             System.out.println(
                     $("#loading").shouldHave(not(text("loading..."))).getText()
             );
+
+
         }
 
     }
